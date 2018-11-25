@@ -43,7 +43,7 @@ body {
 }
 
 div.transbox {
-    margin: 30px;
+    margin: 100px;
     background-color: #ffffff;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -64,4 +64,12 @@ div.transbox {
 
   a:visited {
     text-decoration: none;
-}
+
+  }
+  .container {
+    text-align: center;
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    border-radius: 5px;
+  }
