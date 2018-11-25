@@ -65,7 +65,7 @@ div.transbox p {
 
   p2 {
     text-align: center;
-    font-family: 'Amatic SC', cursive;
+    font: Arial;
     font-size: 50px;
 
 
@@ -75,3 +75,7 @@ div.transbox p {
     height: 200px;
     width: 150px;
   }
+
+  a:visited {
+    text-decoration: none;
+}
