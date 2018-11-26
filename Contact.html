@@ -3,11 +3,10 @@
 <head>
   <title>Student Life in Aberdeen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link href="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+  <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
   <div class="topspace">
@@ -22,34 +21,28 @@
   <div class="container">
     <div class="background">
       <div class="transbox">
-        <form action="mailto:laura.akintche@gmail.com" method="post" enctype="text/ plain">
-          Name:
-          <br>
-          <input type="text" name="name">
-          <br>
-          Email:
-          <br>
-          <input type="text" name="email">
-          <br>
-          Comments:
-          <br>
-          <input type="text" name="comments">
-          <br>
-          <br>
-          <input type="submit" value="Send">
+        <form action="mailto:laura.akintche@gmail.com" method="post" enctype="text/plain" class="form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Type your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Type your email">
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment" class="form-control" placeholder="Type your comment"></textarea>  
+          </div>
+          <input type="submit" value="Send" class="btn btn-default">
         </form>
-      </div>
 
-      <p>
-        <a href="http://www.facebook.com/universityofaberdeen/" class="fa fa-facebook-official" title="Facebook" target="_blank">
-        </a>
-        <a href="http://www.youtube.com/user/uniofaberdeen" class="fa fa-youtube-play" title="YouTube" target="_blank">
-        </a>
-        <a href="http://twitter.com/aberdeenuni/" class="fa fa-twitter" title="Twitter" target="_blank">
-        </a>
-        <a href="https://www.instagram.com/uniofaberdeen/" class="fa fa-instagram" title="Instagram" target="_blank">
-        </a>
-      </p>
+      <div class="social-links">
+        <a href="http://www.facebook.com/universityofaberdeen/" class="fa fa-facebook-official" title="Facebook" target="_blank"></a>
+        <a href="http://www.youtube.com/user/uniofaberdeen" class="fa fa-youtube-play" title="YouTube" target="_blank"></a>
+        <a href="http://twitter.com/aberdeenuni/" class="fa fa-twitter" title="Twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/uniofaberdeen/" class="fa fa-instagram" title="Instagram" target="_blank"></a>
+      </div>
     </div>
   </div>
   <script src="js/jquery.js"></script>

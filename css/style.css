@@ -3,11 +3,6 @@ body {
   display: block;
   margin: 0 auto;
 }
-div {
-  padding-top: 30px
-  display: block;
-
-}
 
 ul {
   text-align: center;
@@ -30,31 +25,10 @@ ul, menu, dir {
 li {
   display: inline;
   padding: 0px 50px 0px 50px;
-}
-
-li {
   text-align: -webkit-match-parent;
 }
-a:link {
-  text-decoration: none;
-}
-div.background {
-  background: url(klematis.jpg) repeat;
-}
 
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-p {
+p, div.social-links {
   text-align: center;
   font-size: 100px;
   color: white;
@@ -63,12 +37,10 @@ p {
 
 }
 
-p2 {
+p.p2 {
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
-
-
 }
 
 img {
@@ -78,4 +50,36 @@ img {
 
 a:visited {
   text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+div {
+  padding-top: 30px
+  display: block;
+}
+
+div.background {
+  background: url(klematis.jpg) repeat;
+}
+
+div.transbox {
+  margin: 30px;
+  padding: 15px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  overflow: hidden;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox textarea {
+  resize: none;
 }
